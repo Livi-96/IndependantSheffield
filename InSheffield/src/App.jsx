@@ -9,8 +9,8 @@ function App() {
     <>
     <div >
       <title> In Sheffield </title>
-      <Button/>
-        <Map/>
+      {/* <Button/>
+        <Map/> */}
     </div>
     </>
   )
