@@ -1,4 +1,4 @@
-
+import Map from './components/map'
 import './App.css'
 
 
@@ -9,6 +9,7 @@ function App() {
     <>
     <div >
       <h1> In Sheffield! </h1>
+      <Map />
     </div>
     </>
   )
