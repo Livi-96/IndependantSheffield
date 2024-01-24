@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <div >
-      <title> In Sheffield </title>
+      <title> In Sheffield! </title>
       {/* <Button/>
         <Map/> */}
     </div>
