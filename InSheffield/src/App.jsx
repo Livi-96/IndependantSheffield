@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div >
+    <div id="main_container">
       <h1> In Sheffield! </h1>
       <Map />
     </div>
