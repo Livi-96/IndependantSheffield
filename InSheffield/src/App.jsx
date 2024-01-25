@@ -7,10 +7,17 @@ function App() {
 
   return (
     <>
-    <div id="main_container">
-      <h1> In Sheffield! </h1>
+        <div id="landing_page">
+      <div id="page_title_container">
+        <h1 id="page_title"> In Sheffield! </h1>
+        </div>
+
+        </div>
+
+        <div id="map_container">
+
       <Map />
-    </div>
+        </div>
     </>
   )
 }
