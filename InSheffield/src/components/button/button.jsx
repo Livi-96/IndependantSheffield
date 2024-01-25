@@ -1,6 +1,6 @@
 
 
-export default function Button() {
+export default function ButtonTest() {
 
 function apiCall(){
 
@@ -20,7 +20,7 @@ function apiCall(){
   return (
     <>
     <div >
-      <button onClick={apiCall} >click me</button>
+      <button onClick={apiCall}>click me</button>
     </div>
     </>
   )
