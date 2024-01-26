@@ -18,7 +18,7 @@ export default function Map(){
 
   useEffect(()=>{
     async function fetchMarkers(){
-      let response = await fetch('http://localhost:7002')
+      let response = await fetch('https://insheffbackend.onrender.com/')
       let data = await response.json()
       data = data.data
       setMarkers(data)
@@ -38,7 +38,7 @@ export default function Map(){
           //turn into JSON object
           let JSONdata = JSON.stringify(marker);
           //post new marker to the database
-          let response = await fetch("http://localhost:7002", {
+          let response = await fetch("https://insheffbackend.onrender.com/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
